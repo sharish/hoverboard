@@ -1,9 +1,11 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Be a hero. Be a GDG!",
+  "title": "DevFest Bangalore 2018",
+  "cfpLink":"schedule/",
+  "registerLink":"https://goo.gl/forms/nFv2bHvPnKzuJ1zC2",
+  "description": "Come join us to “Develop For All",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
+  "dates": "October 13, 2018",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
   "followOur": "Follow our",
@@ -11,7 +13,7 @@
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "register": "Register",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -199,11 +201,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
+    "title": "DevFest 2017 highlights",
     "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://goo.gl/ed385K"
     }
   },
   "mapBlock": {
@@ -211,8 +213,8 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
-      "label": "Subscribe"
+      "description": "The Agenda is ready! ",
+      "label": "View"
     },
     "yourEmail": "Your email",
     "emailAddress": "Email Address",
@@ -260,11 +262,27 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='https://www.meetup.com/blrdroid/' target='_blank'>BLRDroid</a> and <a href='https://www.meetup.com/GDGBangalore' target='_blank'>GDG Bangalore</a> are the proud organizers of DevFest India",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
-        }
+        },
+        "hasImages": true,
+        "images": [
+          {
+            "logoUrl": "images/logos/gdg_blr.png",
+            "width": 220,
+            "height": 38,
+            "ctaLink": "https://www.meetup.com/GDGBangalore"
+
+          },
+          {
+            "logoUrl": "images/logos/gdg_blr_droid.png",
+            "width": 220,
+            "height": 38,
+            "ctaLink": "https://www.meetup.com/blrdroid/"
+          }
+        ]
       },
       {
         "title": "What is GDG?",
@@ -273,7 +291,16 @@
           "label": "Read more",
           "link": "https://developers.google.com/groups/",
           "newTab": true
-        }
+        },
+        "hasImages": true,
+        "images": [
+          {
+            "logoUrl": "images/logos/gdg.png",
+            "width": 220,
+            "height": 38,
+            "ctaLink": "https://developers.google.com/groups/"
+          }
+        ]
       }
     ]
   },

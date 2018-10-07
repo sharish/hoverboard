@@ -84,10 +84,10 @@
       <div class="description-card" layout vertical justified>
         <div>
           <h2>{$ mapBlock.title $}</h2>
-          <p>{$ location.description $}</p>
+          <p>{$ location.address $}</p>
         </div>
         <div class="bottom-info" layout horizontal justified center>
-          <span class="address">{$ location.address $}</span>
+          <span class="address">{$ location.name $}</span>
           <a
             href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}"
             target="_blank"
@@ -165,9 +165,9 @@
                 lng: parseFloat('{$ location.pointer.longitude $}'),
               },
               icon: {
-                url: 'images/map-marker.svg',
-                anchor: new google.maps.Point(25, 50),
-                scaledSize: new google.maps.Size(50, 50),
+                url: 'images/map-marker2.png',
+                anchor: new google.maps.Point(18.5, 47),
+                scaledSize: new google.maps.Size(37, 47),
               },
               map: e.detail,
             });
